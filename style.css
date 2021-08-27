@@ -1,0 +1,28 @@
+body{
+    color:white;
+    background-color: brown;
+}
+
+.heading{
+    width:80%;
+    font-size: 22px;
+}
+
+#Camera{
+    border:2px outset black;
+    width: 350px;
+    height:300px;
+}
+
+.Objects{
+    color:cornflowerblue;
+    font-size: 20;
+}
+
+#result_object_name{
+    color:darkblue;
+}
+
+#result_object_accuracy{
+    color:darkblue;
+}

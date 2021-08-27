@@ -1,0 +1,16 @@
+#LoadingCube{
+    width:10%;
+    height:10%;
+    background-color: blue;
+    animation-name: loadingAnim;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes LoadingAnim{
+    0%{background-color: blue; left:40%; top:40%;}
+    25%{background-color: red; left:60%; top:40%;}
+    50%{background-color: black; left:60%; top:60%;}
+    75%{background-color: yellow; left:40%; top:60%;}
+    100%{background-color: blue; left:40%; top:40%;}
+}
